@@ -6,7 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["example"],
+  "keywords": [
+    "example"
+  ],
   "author": "Ivan Gongora M <ivan.gongoram@gmail.com> (ivangongoram.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pseudb": "^1.1.3"
+  }
 }
