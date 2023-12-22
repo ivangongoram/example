@@ -12,6 +12,7 @@
   "author": "Ivan Gongora M <ivan.gongoram@gmail.com> (ivangongoram.com)",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "express": "^4.18.2",
     "pseudb": "^1.1.3"
   },
