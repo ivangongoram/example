@@ -1,0 +1,202 @@
+{
+  "property": {
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2023-12-22T20:31:30.040Z",
+    "__export_source": "insomnia.desktop.app:v2023.1.0",
+    "resources": [
+      {
+        "_id": "req_d5bcdf3d073f478589d3fb31edf5776f",
+        "parentId": "wrk_45d3141a560945709f821f5661631e71",
+        "modified": 1703277071821,
+        "created": 1703199205596,
+        "url": "{{ _.url }}/api/user/index",
+        "name": "index",
+        "description": "",
+        "method": "GET",
+        "body": {},
+        "parameters": [],
+        "headers": [],
+        "authentication": {},
+        "metaSortKey": -1703199205596,
+        "isPrivate": false,
+        "settingStoreCookies": true,
+        "settingSendCookies": true,
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingRebuildPath": true,
+        "settingFollowRedirects": "global",
+        "_type": "request"
+      },
+      {
+        "_id": "wrk_45d3141a560945709f821f5661631e71",
+        "parentId": null,
+        "modified": 1703199202753,
+        "created": 1703199202753,
+        "name": "example",
+        "description": "",
+        "scope": "collection",
+        "_type": "workspace"
+      },
+      {
+        "_id": "req_3b63d251d34b4ae689f626e86622e47c",
+        "parentId": "wrk_45d3141a560945709f821f5661631e71",
+        "modified": 1703276627371,
+        "created": 1703274070737,
+        "url": "{{ _.url }}/api/user/create",
+        "name": "create ",
+        "description": "",
+        "method": "POST",
+        "body": {
+          "mimeType": "application/json",
+          "text": "{\n\t\"name\": \"ivan d\",\n\t\"age\": 25\n}"
+        },
+        "parameters": [],
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "authentication": {},
+        "metaSortKey": -1701199023096,
+        "isPrivate": false,
+        "settingStoreCookies": true,
+        "settingSendCookies": true,
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingRebuildPath": true,
+        "settingFollowRedirects": "global",
+        "_type": "request"
+      },
+      {
+        "_id": "req_03658100643f4a279c15d0a0dd2ef328",
+        "parentId": "wrk_45d3141a560945709f821f5661631e71",
+        "modified": 1703274981973,
+        "created": 1703274935230,
+        "url": "{{ _.url }}/api/user/5/show",
+        "name": "show",
+        "description": "",
+        "method": "GET",
+        "body": {},
+        "parameters": [],
+        "headers": [],
+        "authentication": {},
+        "metaSortKey": -1700865659346,
+        "isPrivate": false,
+        "settingStoreCookies": true,
+        "settingSendCookies": true,
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingRebuildPath": true,
+        "settingFollowRedirects": "global",
+        "_type": "request"
+      },
+      {
+        "_id": "req_8b3c78f743dc42eda545be262ded41de",
+        "parentId": "wrk_45d3141a560945709f821f5661631e71",
+        "modified": 1703275961224,
+        "created": 1703275037405,
+        "url": "{{ _.url }}/api/user/5/update",
+        "name": "update",
+        "description": "",
+        "method": "PATCH",
+        "body": {
+          "mimeType": "application/json",
+          "text": "{\n\t\"name\": \"Dario\",\n\t\"age\": 25\n}"
+        },
+        "parameters": [],
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "authentication": {},
+        "metaSortKey": -1700698977471,
+        "isPrivate": false,
+        "settingStoreCookies": true,
+        "settingSendCookies": true,
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingRebuildPath": true,
+        "settingFollowRedirects": "global",
+        "_type": "request"
+      },
+      {
+        "_id": "req_f46bdedef6184b758404451d8713a04e",
+        "parentId": "wrk_45d3141a560945709f821f5661631e71",
+        "modified": 1703276674822,
+        "created": 1703276452161,
+        "url": "{{ _.url }}/api/user/15/delete",
+        "name": "delete",
+        "description": "",
+        "method": "DELETE",
+        "body": {},
+        "parameters": [],
+        "headers": [],
+        "authentication": {},
+        "metaSortKey": -1700615636533.5,
+        "isPrivate": false,
+        "settingStoreCookies": true,
+        "settingSendCookies": true,
+        "settingDisableRenderRequestBody": false,
+        "settingEncodeUrl": true,
+        "settingRebuildPath": true,
+        "settingFollowRedirects": "global",
+        "_type": "request"
+      },
+      {
+        "_id": "env_906cdc86dff888bed306421079b1bf2db89ed778",
+        "parentId": "wrk_45d3141a560945709f821f5661631e71",
+        "modified": 1703199202761,
+        "created": 1703199202761,
+        "name": "Base Environment",
+        "data": {},
+        "dataPropertyOrder": null,
+        "color": null,
+        "isPrivate": false,
+        "metaSortKey": 1703199202761,
+        "_type": "environment"
+      },
+      {
+        "_id": "jar_906cdc86dff888bed306421079b1bf2db89ed778",
+        "parentId": "wrk_45d3141a560945709f821f5661631e71",
+        "modified": 1703199202764,
+        "created": 1703199202764,
+        "name": "Default Jar",
+        "cookies": [],
+        "_type": "cookie_jar"
+      },
+      {
+        "_id": "spc_ecdc5296fc4f454785b70450ee320eb3",
+        "parentId": "wrk_45d3141a560945709f821f5661631e71",
+        "modified": 1703199202755,
+        "created": 1703199202755,
+        "fileName": "example",
+        "contents": "",
+        "contentType": "yaml",
+        "_type": "api_spec"
+      },
+      {
+        "_id": "env_5a5ee688f023418888b24ed983e35032",
+        "parentId": "env_906cdc86dff888bed306421079b1bf2db89ed778",
+        "modified": 1703209966038,
+        "created": 1703209934141,
+        "name": "local",
+        "data": {
+          "url": "http://127.0.0.1:3000"
+        },
+        "dataPropertyOrder": {
+          "&": [
+            "url"
+          ]
+        },
+        "color": null,
+        "isPrivate": false,
+        "metaSortKey": 1703209934141,
+        "_type": "environment"
+      }
+    ]
+  }
+}
