@@ -9,5 +9,12 @@ Through practical examples and real-world scenarios, our Example Project aims to
 
 Ready to embark on this learning adventure? Let's dive into our Example Project and discover together its potential!
 
+### Used libraries 
+
+- PseuDB ([here](https://www.npmjs.com/package/pseudb))
+- Express ([here](https://www.npmjs.com/package/express))
+- Body-parser ([here](https://www.npmjs.com/package/body-parser))
+- Nodemon ([here](https://www.npmjs.com/package/nodemon))
+
 >[!IMPORTANT]
 > Remember to download the Insomnia collection to make requests to the server ([Collection](https://github.com/ivangongoram/example/blob/main/example_collection.json)).
